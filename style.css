@@ -1,0 +1,494 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-seri
+}
+body{
+    background-color: white;
+}
+
+.navBar {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    font-family: "Barlow", sans-serif;
+}
+
+.logoSection {
+    width: 100px;
+    display: inline;
+    margin: 8px 0px 0px 0px;
+}
+
+.flipkart-logo {
+    width: 95px;
+    height:100px;
+   padding: 0px;
+   }
+
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    width: 75px;
+    height: 15.4px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.searchBox {
+    width: 40%;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 50px;
+   border-radius: 20px;
+   height: 40px;
+}
+
+.input {
+    height: 45px;
+    width: 564px;
+    border-radius: 5px;
+    padding: 0 16px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    outline: 0 none;
+    background-color: #f6f6ff;
+
+}
+
+.search-logo {
+    height: 45px;
+    width: 44px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 2px 8px;
+    background-color: #f6f6ff;
+    
+    border: 0;
+    outline: 0 none;
+    color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.loginBox {
+    margin-right: 0px;
+}
+
+.login {
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 42px;
+    padding: 10px 40px;
+    border: 1px solid #ffffff;
+}
+
+.login:hover{
+    background-color: hsl(235, 93%, 59%);
+    color: white;
+}
+
+.becomeSellerBox {
+    width: 155px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.moreBox {
+    width: 50px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cartBox {
+    width: 65px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.belowNavBar {
+    display: flex;
+    max-width: 95%;
+    color: #212121;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:120px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.smallCard {
+    
+    width: 94px;
+    height: 112px;
+    padding: 10px;
+    margin: 0px 20px;
+    
+}
+
+.smallCard Img:hover{
+    scale: 1.03;
+}
+.smallCard p{
+    text-align: center;
+}
+.smallCard img{
+    width: 65px;
+    height: 65px;
+    border: white;
+}
+
+.footerSection {
+    max-width: 1719px;
+    /* height: 346px; */
+    height: 300px;
+    background-color: #172337;
+    display: flex;
+
+}
+
+.footerLeft {
+    display: flex;
+    width: 50%;
+    margin-left: 65px;
+    justify-content: space-evenly;
+}
+
+.footerInfo {
+    width: 252px;
+    height: 194px;
+    padding-top: 40px;
+}
+
+.footerInfoHeading {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footerContent {
+    color: #ffffff;
+    font-size: 12px;
+
+    line-height: 1;
+}
+
+.footerRight {
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+    justify-content: space-evenly;
+}
+
+.footerExtras {
+    margin-top: 0.35px;
+    background-color: #172337;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1719px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+.main-box {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-box h4 {
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.sub-box {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-box {
+    flex: 1;
+    margin: 0 5px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.small-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+   width: 100px;
+   height: 100px;
+}
+.small-box img:hover{
+    scale: 1.03;
+
+}
+
+.small-box h5, .small-box h6 {
+    margin: 5px 0;
+    
+}
+
+.image-container {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    width: 100%;
+    
+  }
+  .image-container {
+    flex: 1;
+    max-width: 50%;
+    height: 700px;
+    overflow: hidden;
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 700px;
+    overflow: hidden;
+  }
+  .main-box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    height: 100%;
+  }
+  .main-heading2 {
+    font-size: 24px;
+    margin-top: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .sub-box2 {
+    display: flex;
+    align-items: center;
+   width: 200px;
+   height: 200px;
+  }
+  .sub-box2 img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+  }
+  .sub-box2 p {
+    margin: 0;
+  }
+
+  .sub-box2 img:hover{
+    scale: 1.03;
+  }
+
+  .container1 {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .main-box1 {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  .main-heading1 {
+    font-size: 18px;
+    margin: 0;
+  
+  }
+  .itemSection {
+    max-width: 1434px;
+    height: 314px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.item {
+    width: 232px;
+    height: 314px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.itemImg {
+    height: 150px;
+
+}
+.itemImg:hover{
+    scale: 1.03;
+}
+
+.itemDescription {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.buyNowText {
+    color: #020202;
+    padding-top: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.itemHeadName {
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.38;
+    color: #2e2e2e;
+    text-align: center;
+
+}
+
+.viewAllSection {
+    margin-top: 24px;
+    text-align: center;
+}
+
+
+
+.viewAllButton {
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    border: none;
+    height: 38px;
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewAllText {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+.line {
+    width: 100%;
+    border: none;
+    border-top: 8px solid rgba(213, 207, 207, 0.617);
+}
+.container3 {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-box3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 37.5%;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+}
+
+.sub-box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sub-box3 img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.sub-box3 h6 {
+    margin: 0;
+    text-align: center;
+}
+
+.side-image3 {
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image3 img {
+    height: 100%;
+    width:400px;
+}
